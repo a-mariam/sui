@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Top from "@/components/Top";
 import About from "@/components/About";
 import FeatureAndBenefits from "@/components/FeatureAndBenefits";

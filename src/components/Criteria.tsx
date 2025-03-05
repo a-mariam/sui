@@ -93,7 +93,7 @@ const Criteria = () => {
                             <span className="text-lg">→</span></button>
                     </div>
                 </div>
-                <div className="mt-6 grid py-8 place-content-center"><h1>We will inform applicants if they were selected
+                <div className="mt-6 grid py-8 px-6 place-content-center"><h1>We will inform applicants if they were selected
                     by <span className="font-semibold text-sm ">Monday, March 17, 2025.</span></h1></div>
             </section>
         </div>

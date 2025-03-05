@@ -3,7 +3,6 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { BiSolidTimeFive } from "react-icons/bi";
 import {cabinetGrotesk400} from "@/app/font";
-// import {inter500} from '@/app/fonts'
 
 
 const Info = () => {
