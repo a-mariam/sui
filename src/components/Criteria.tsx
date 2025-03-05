@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoPerson } from "react-icons/io5";
 import { IoIosPeople } from "react-icons/io";
+import Image from 'next/image'
 
 
 const Criteria = () => {
@@ -25,15 +26,20 @@ const Criteria = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="relative md:static"><img alt="Team members smiling" loading="lazy" width="500"
-                                                                 height="350" decoding="async" data-nimg="1"
-                                                                 className="w-full h-auto md:hidden"
+                        <div className="relative md:static">
+                            <Image alt={`Team members smiling`}
+                                   width={500}
+                                   height={350}
+                                   className={`w-full h-auto md:hidden`}
+                                   src={`/eligibility-image.svg`}/>
 
-                                                                 src="/eligibility-image.svg"/><img
-                            alt="Team members smiling" loading="lazy" width="600" height="450" decoding="async"
-                            data-nimg="1"
+                            <Image
+                            alt="Team members smiling"
+                            width={600}
+                            height={450}
                             className="hidden md:block absolute lg:-top-12 md:-top-0 md:right-0 md:translate-x-10 md:-translate-y-12"
-                            src="/eligibility-image.svg"/></div>
+                            src="/eligibility-image.svg"/>
+                        </div>
                     </div>
                 </div>
             </section>

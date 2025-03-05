@@ -1,5 +1,4 @@
 import React from 'react';
-import {cabinetGrotesk400} from "@/app/font";
 
 const FeatureAndBenefits = () => {
     return (

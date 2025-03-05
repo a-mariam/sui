@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Bottom = () => {
     return (
-        <section className={` w-full h-fit px-8 py-6 md:py-20 md:px-30 grid md:flex md:justify-between bg-[#061737]`}>
-            <div className={` w-full md:grid md:gap-18  md:content-between md:h-[100%] md:w-[30%]`}>
+        <section className={` w-full h-fit px-8 py-6 grid gap-6 md:py-20 md:px-30  md:flex md:justify-between bg-[#061737]`}>
+            <div className={` w-full grid gap-6 md:grid md:gap-18  md:content-between md:h-[100%] md:w-[30%]`}>
                <div className={``}>
                    <p  className={`text-[#38d1d6] font-bold text-[20px] `}>Logistics</p>
                    <ul className={`list-disc text-white`}>
