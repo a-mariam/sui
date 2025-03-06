@@ -8,52 +8,33 @@ const About = () => {
     return (
         <div
             className={` w-full h-fit bg- pt-30 pb-10 md:py-30  md:w-full bg-white md:bg-white   md:h-fit px-6 md:px md:gap-8 md:flex md:justify-center grid gap-6`}>
-            <div className={`grid md:w-[80%] md:flex md:justify-between  `}>
-
-                {/*<div className={`static w-fit  h-fit bg-red-100 `}>*/}
-                {/*   <div className="absolute top-2 left-20 py-1 px-3 bg-[#ececec] text-[#061737] rounded-md text-xs font-bold z-50">*/}
-                {/*      Web 3.0*/}
-                {/*    </div>*/}
-                {/*    <div className="relative w-full max-w-[350px] aspect-square overflow-hidden rounded-full bg-[#0A1739]">*/}
-                {/*        <Image*/}
-                {/*            src="/about-sui-image.svg"*/}
-                {/*            alt="Smiling woman with laptop"*/}
-                {/*            layout="fill"*/}
-                {/*            objectFit="cover"*/}
-                {/*        />*/}
-                {/*    </div>*/}
-                {/*    <div className="absolute bottom-2 right-20 py-1 px-3 bg-[#ececec] text-[#061737] rounded-md text-xs font-bold z-50">*/}
-                {/*        Blockchain Tech*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-
-
-                {/*<div className="= h-fit w-fit bg-red-100 ">*/}
-                    {/* Top Label ("Web 3.0") */}
-
-
-                    {/* Circular Image */}
-                    <div className=" relative w-full max-w-[350px] aspect-square overflow-hidden rounded-full bg-[#0A1739]">
-                        <div className="  absolute rounded-xl bg-[#ECECEC] p-2 shadow-lg z-50">
-                            <p className="text-sm font-medium text-gray-800">Web 3.0</p>
-                        </div>
+            <div className={` relative grid md:w-[80%] md:flex md:justify-between  `}>
+                <div className="relative w-full md:w-1/2 flex justify-center">
+                    <div className="relative">
                         <Image
-                            alt="Smiling woman with laptop"
                             src="/about-sui-image.svg"
-                            layout="fill"
-                            objectFit="cover"
-                            priority
+                            alt="about sui icon"
+                            width={400}
+                            height={400}
+                            className={`rounded-full w-96 h-96 bg-black object-cover object-center`}
+                            // className="absolute w-auto h-[120%] object-cover -top-16"
                         />
-                        {/*<div className="abssm: rounded-xl bg-[#ECECEC] p-2 shadow-lg">*/}
-                        {/*    <p className="text-sm font-medium text-gray-800">Blockchain Tech</p>*/}
-                        {/*</div>*/}
-                    </div>
 
-                    {/* Bottom Label ("Blockchain Tech") */}
-                    {/*<div className="abssm: rounded-xl bg-[#ECECEC] p-2 shadow-lg">*/}
-                    {/*    <p className="text-sm font-medium text-gray-800">Blockchain Tech</p>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
+                        <div
+                            className="absolute top-32 left-[-12px] bg-gray-200 text-black px-4 py-1 rounded shadow-md flex items-center text-sm">
+                            <span className=" text-sm text-black"></span> Web 3.0
+                        </div>
+
+                        <div
+                            className="absolute bottom-8 right-0.5 bg-gray-200  text-black px-4 py-1 rounded shadow-md flex items-center text-sm">
+                            <span className="text-black"></span> Blockchain Tech
+                        </div>
+                    </div>
+                </div>
+
+
+
+
 
 
 
